@@ -1,5 +1,2 @@
-require 'sinatra'
-require './application_controller.rb'
-
-run MyApp
-
+get '/hello/:id'do
+  @name = p
