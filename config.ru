@@ -1,2 +1,4 @@
 get '/hello/:id'do
-  @name = p
+  @name = params[:id]
+  "Hello #{@name}"
+end 
